@@ -8,45 +8,70 @@
   <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
-  <ul>
-    <li><a href="../index.html">Главная</a></li>
-    <li><a href="contacts.html">Контакты</a></li>  
-  </ul>
-  <h2 class="contacts__title-big">Contact Us</h2>
-  <p class="text">Тут текст</p>
-  <img src="../images/gb.png" alt="">
-  <h4 class="title-small">Address</h4>
-  <p class="text">Текст</p>
-  <h4 class="title-small">Phone</h4>
-  <ul>
-    <li><a href="tel:+79999999999">+7(999)999 99 99</a></li>
-    <li><a href="tel:+79998888888">+7(999)888 88 88</a></li>
-  </ul>
-  <h4 class="title-small">Online service</h4>
-  <ul>
-    <li><a href="https://gb.ru/">Ссылка на сайт</a></li>
-    <li><a href="mailto:support@geekbrains.ru">Ссылка на эл. почту</a></li>
-  </ul>
-  <h4 class="title-small">Send us message</h4>
-  <form action="/">
-    <label for="fullname">Full name</label><br>
-    <input class="input" id="fullname" type="text" plaseholder="Петров Пётр Петрович"><br>
-    <label for="email">Email</label><br>
-    <input class="input" id="email" type="email" plaseholder="example@example.ru"><br>
-    <label for="message">Message</label><br>
-    <textarea class="input" id="message" cols="84" rows="10"></textarea><br>
-    <button type="submit">Submit</button><br><br>
-    <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A54351f9c0350e9f0ac06ee1b94c5e26556f8a4cc8e6aa35da907fb450e4bb148&amp;width=777&amp;height=428&amp;lang=ru_RU&amp;scroll=true"></script>
-  </form>
-  <h3 class="title-middle">И опять h3</h3>
-  <p class="text">Далеко в стране гласных и согласных живут рыбные тексты.</p>
-  <hr>
-  Контакты
-  <ul>
-    <li>Текст не более 5 слов</li>
-    <li>+7(999)999 99 99</li>
-    <li>example@example.ru</li>
-  </ul>
-  <p class="text">Все права защищены &nbsp;&copy;</p>
+  <div class="header">
+    <div class="header__content">
+      <ul>
+        <li><a href="../index.html">Главная</a></li>
+        <li><a href="contacts.html">Контакты</a></li>  
+      </ul>
+    </div>
+    <div class="header__description_big">
+      <h2 class="contacts-title_big">Contact Us</h2>
+      <p class="text">Тут текст</p>
+    </div>
+  </div>
+  <div class="main">
+    <div class="main__feedback">
+      <div class="main__contacts">
+        <img src="../images/gb.png" alt="">
+        <h4 class="title-small">Address</h4>
+        <p class="text">Текст</p>
+        <h4 class="title-small">Phone</h4>
+        <ul>
+          <li><a href="tel:+79999999999">+7(999)999 99 99</a></li>
+          <li><a href="tel:+79998888888">+7(999)888 88 88</a></li>
+        </ul>
+        <h4 class="title-small">Online service</h4>
+        <ul>
+          <li><a href="https://gb.ru/">Ссылка на сайт</a></li>
+          <li><a href="mailto:support@geekbrains.ru">Ссылка на эл. почту</a></li>
+        </ul>
+      </div>
+      <div class="main__form-container">
+        <h4 class="title-small">Send us message</h4>
+        <form class="main__form" action="/">
+          <label for="fullname">Full name</label><br>
+          <input class="input" id="fullname" type="text" plaseholder="Петров Пётр Петрович"><br>
+          <label for="email">Email</label><br>
+          <input class="input" id="email" type="email" plaseholder="example@example.ru"><br>
+          <label for="message">Message</label><br>
+          <textarea class="input" id="message" cols="84" rows="10"></textarea><br>
+          <button class="submit-button" type="submit">Submit</button><br><br>
+        </form>
+      </div>
+    </div>
+    <div class="main__map">
+       <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A54351f9c0350e9f0ac06ee1b94c5e26556f8a4cc8e6aa35da907fb450e4bb148&amp;width=777&amp;height=428&amp;lang=ru_RU&amp;scroll=true"></script>
+    </div>
+  </div> 
+  <div class="footer">
+    <div class="footer__content">
+      <div class="footer__description">
+        <h3 class="title-middle">Это заголовок h3</h3>
+        <p class="text">Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты. </p>
+      </div>
+    </div>
+    <hr>
+    <div class="footer__content">
+      <ul class="contacts">
+        <li>Текст не более 5 слов</li>
+        <li>+7(999)999 99 99</li>
+        <li>example@example.ru</li>
+      </ul>
+      <div class="footer__copyright">
+        <p class="text">Все права защищены &nbsp;&copy;</p>
+      </div>
+    </div>
+  </div>
 </body>
 </html>
